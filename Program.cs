@@ -15,7 +15,12 @@ namespace TestCaseGenerator
             //new Leo.MembershipChangeTestCase().Generate();
 
             //new Sshd.Ten5.PersonsTestCase().Generate();
-            new Sshd.Ten5.SharedMailsTestCase().Generate();
+            //new Sshd.Ten5.SharedMailsTestCase().Generate();
+
+            //new Nksol.ShainNyushaTestCase().Generate();
+            new Nksol.ShainIdoTestCase().Generate();
+            //new Nksol.ShainTaishokuTestCase().Generate();
+            //new Nksol.ShainKaiseiTestCase().Generate();
         }
 
         static void Test()

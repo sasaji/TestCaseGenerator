@@ -47,6 +47,10 @@
     <Compile Include="Leo\UserAddressBookTestCase.cs" />
     <Compile Include="Leo\MembershipTestCase.cs" />
     <Compile Include="Leo\Office365TestCase.cs" />
+    <Compile Include="Nksol\ShainKaiseiTestCase.cs" />
+    <Compile Include="Nksol\ShainIdoTestCase.cs" />
+    <Compile Include="Nksol\ShainNyushaTestCase.cs" />
+    <Compile Include="Nksol\ShainTaishokuTestCase.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Sshd\Ten5\PersonsTestCase.cs" />

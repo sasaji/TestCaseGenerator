@@ -7,6 +7,7 @@ namespace TestCaseGenerator
     {
         public bool PrintText = false;
         public bool NoHeader = false;
+        public int Line = 0;
 
         protected void PrintTestCases(string s, string[] array)
         {
@@ -35,5 +36,11 @@ namespace TestCaseGenerator
             }
             Console.Write(string.Join(",", list.ToArray()) + ",");
         }
+    }
+
+    public class TestCatego
+    {
+        public string Name;
+        public IList<TestCatego> Tables;
     }
 }
